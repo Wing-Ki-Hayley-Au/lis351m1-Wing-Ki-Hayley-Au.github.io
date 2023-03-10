@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Playfair+Display&display=swap');
+
+* {
+	box-sizing: border-box;
+	font-family: 'Playfair Display', sans-serif;
+	color: #804247;
+}
+
+
+html, body {
+	margin: 0;
+	padding:0;
+}
+
+.main-header {
+	background-color: #FEECEB;
+}
+
+nav ul {
+	margin: 0;
+}
+
+.nav li {
+	display: inline;
+}
+
+nav a {
+	display: inline-block;
+	padding: .5em;
+	color: #AB3720;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav {
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: lighter;
+}
+
+.main-nav li {
+	padding: 0 5%;
+}
+
+.name {
+	text-align: center;
+	margin: 0;
+	font-size: 4em;
+	font-family: Brush Script MT, cursive;
+	font-weight: normal;
+	color: #AA2356;
+}
+
+.name-large {
+	font-size: 6em;
+}
+
+.content {
+	margin: 1em;
+	background-color: #FBE9ED;
+}
+
+.about {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 1.5em;
+}
+
+.section-header {
+	font-weight: bold;
+	color: #462527;
+	text-align: center;
+	font-size: 2em;
+}
+
+.me {
+	float: left;
+	height: 320px;
+	width: 250px;
+	margin: 15px;
+	border-radius: 50%;
+}
+
+.main-footer {
+	background-color: #FEECEB;
+	color: #BA5976;
+	padding: .25em 0;
+}
+
+.main-footer-foot {
+	display: flex;
+	align-items: center;
+}
+
+.main-footer-foot ul {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.footer-nav li {
+	padding: 0 .5em;
+}
+
+.name-small {
+	font-size: 4em;
+	margin: 15px;
+	padding: 0em;
+}
+
+.piano {
+	float: left;
+	height: 300px;
+	width: 250px;
+	margin: 15px;
+	border-radius: 40%;
+}
+
+.section {
+	margin: 1em;
+	background-color: #D4EAFF;
+	margin: 0 auto;
+	padding: 0 1.5em;
+}
+
+.dessert-header {
+	font-weight: bold;
+	color: #994A16;
+	text-align: center;
+	font-size: 2em;
+}
+
+.dessert-nd {
+	margin: 1em;
+	background-color: #E7E6F9;
+	margin: 0 auto;
+	padding: 0 1.5em;
+}
+
+.cb {
+	margin: 1;
+	font-size: 2em;
+	font-family: 'Dancing Script', cursive;
+	font-weight: normal;
+	color: #4A486B;
+}
+
+.dessert-nd {
+	margin: 1em;
+	background-color: #D4EAFF;
+	margin: 0 auto;
+	padding: 0 1.5em;
+}
+
+.dessert-rd {
+	margin: 1em;
+	background-color: #DEE0F7;
+	margin: 0 auto;
+	padding: 0 1.5em;
+}
+
+.dessert-th {
+	margin: 1em;
+	background-color: #EDFFF0;
+	margin: 0 auto;
+	padding: 0 1.5em;
+}
+
+.ft-pic {
+	float: left;
+	height: 250px;
+	width: 200px;
+	margin: 10px;
+	border-radius: 30%;
+}
+
+.cb-pic {
+	float: right;
+	height: 250px;
+	width: 200px;
+	margin: 10px;
+	border-radius: 30%;
+}
+
+.des-cb {
+	font-size: 1.3em;
+	font-family: 'Courgette', cursive;
+	font-weight: normal;
+	color: #4551B7;
+}
+
+.des-ft {
+	font-size: 1.3em;
+	font-family: 'Courgette', cursive;
+	font-weight: normal;
+	color: #4E3C99;
+}
+
+.des-bb {
+	font-size: 1.3em;
+	font-family: 'Courgette', cursive;
+	font-weight: normal;
+	color: #2B7A64;
+}
+
+.intro {
+	font-size: 1.3em;
+	font-family: 'Courgette', cursive;
+	font-weight: normal;
+	color: #F98043;
+	margin: 0 auto;
+	padding: 0 1.5em;
+}
+
+.music {
+	text-align: left;
+	margin: 1;
+	padding: 0 1.5em;
+}
+
+.Can {
+	line-height: 2.2em;
+	margin-bottom: 2.2em;
+}
+
